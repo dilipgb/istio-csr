@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-repo_name := github.com/cert-manager/istio-csr
+repo_name := github.com/dilipgb/istio-csr
+oci_platforms := linux/amd64,linux/arm/v7,linux/arm64,linux/ppc64le,linux/s390x
 
 kind_cluster_name := istio-csr
 kind_cluster_config := $(bin_dir)/scratch/kind_cluster.yaml
