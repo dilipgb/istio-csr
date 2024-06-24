@@ -53,8 +53,8 @@ targets:
       repo_hash: 96530a5ed1a52c40cdf6b2469ad49fa5a13ab7c0
       repo_path: modules/klone
     - folder_name: oci-build
-      repo_url: https://github.com/cert-manager/makefile-modules.git
-      repo_ref: main
+      repo_url: https://github.com/dilipgb/makefile-modules.git
+      repo_ref: dilipgb-patch-1
       repo_hash: 96530a5ed1a52c40cdf6b2469ad49fa5a13ab7c0
       repo_path: modules/oci-build
     - folder_name: oci-publish
